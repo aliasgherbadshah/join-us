@@ -1,0 +1,97 @@
+
+<title>Let's ROck</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+
+    <section class="section_1">
+        <h1>JOIN US</h1>
+
+        <p class="lead" style="margin: 0;
+  font-size: 40px;
+    font-weight: 600;
+    padding-top: 20px;
+    color: white;">Enter your email to join <strong><%=data%></strong> 
+        others on our waitlist. We are 100% not a cult. </p>
+
+        <form method="POST" action='/register'>
+         <input type="email" name="email" class="form" placeholder="Enter Your Email">
+         <button>Join Now</button>
+        </form>
+        
+        <h6></h6>
+    </section>
+
+
+    <section class="section_2">
+        <p style=" padding-bottom: 10px; color : #202069">Our latest followers</p>
+        <div class="list">
+        <% for(var i=0; i<name.length; i++) { %>
+               <li>
+              <%= name[i].email %>
+               </li>
+           <% } %>
+        </div>
+        
+        
+        
+        <div class="row  text-justify pin">
+            <p style="text-align: center;padding-bottom: 20px;">our letest upcoming games join us to get latest update</p>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="<%=i_url1%>" alt="thumbnail" style="height: 400px;">
+              <div class="caption">
+                <h2><%=g_name1%></h2>
+                <h3><%=g_dis1%></h3>
+                <p><a href="#https://www.youtube.com/watch?v=XnMcK-1dclE" target="_blank" class="btn btn-primary" role="button">Watch Video</a> <a href="http://www.rgmechanics.com/dishonored-2-free-download/" class="btn btn-success" role="button">Download Now</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="<%=i_url2%>" alt="thumbnail" style="height: 400px;">
+              <div class="caption">
+                <h2><%=g_name2%></h2>
+                <h3> <%=g_dis2%></h3>
+                <p><a href="https://www.youtube.com/watch?v=9ZXTAhpPKBc" target="_blank" class="btn btn-primary" role="button">Watch Video</a> <a href="https://hitman-2.en.softonic.com/" class="btn btn-success" role="button">Download Now</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="<%=i_url3%>" alt="thumbnail" style="height: 400px;">
+              <div class="caption">
+                <h2><%=g_name3%></h2>
+                <h3><%=g_dis3%></h3>
+                <p><a href="https://www.youtube.com/watch?v=pj_q9JhyxUg" target="_blank" class="btn btn-primary" role="button">Watch Video</a> <a href="https://call-of-duty-4.en.softonic.com/" target="_blank" class="btn btn-success" role="button">Download Now</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        
+    </section>
+
+    <section class="section_3">
+        <h2 >sing up</h2>
+        <form method="POST" action='/singin'>
+         <input  type="text" name="name" class="form" placeholder="Enter Your Name">
+         <input type="email" name="Sing_email" class="form" placeholder="Enter Your Email">
+         <input type="password" name="password" class="form" placeholder="Enter Your password"><br>
+         <button class="btn1">Submite</button>
+        </form>
+        <div class="btn2">
+            <h2 style="color:white" >Log in</h2>
+            <form method="POST" action='/login'>
+             <input  type="text" name="name" class="form" placeholder="Enter Your Name">
+             <input type="password" name="password" class="form" placeholder="Enter Your password"><br>
+             <button class="btn1">LOg in</button>
+            </form>
+        </div>
+    </section>

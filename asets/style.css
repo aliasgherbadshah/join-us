@@ -1,0 +1,173 @@
+body {
+  text-align: center;
+  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+  font-family: 'Roboto', sans-serif;
+  color: rgb(66,69,86);
+  height: 100%;
+  
+  font-weight: 100;
+}
+
+.section_1{
+    background-image: url('http://www.ultrahdfreewallpapers.com/uploads/large/games/halo-5-game-wallpaper-022.jpg');
+    
+  background-size: cover;
+    margin-bottom: 0;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+h1{
+  margin: 0;
+  font-size: 350px;
+  line-height: 400px;
+  font-weight: 100;
+    color: white;
+}
+
+p {
+  margin: 0;
+  font-size: 40px;
+    font-weight: 600;
+    padding-top: 20px;
+    color: #453b3b;
+}
+
+h6{
+    padding-bottom: 26px;
+    margin-bottom: 0;
+}
+
+.form {
+	line-height: 1.2;
+	border: none;
+	border-bottom: 3px solid #ebebeb;
+	margin-top: 100px;
+	width: 700px;
+	font-size: 2.1em;
+	color: white;
+	padding: 10px 10px;
+	background: transparent;
+    
+    
+}
+
+button {
+    line-height: 2.0;
+    border: none;
+    border:3px solid white;
+    font-size: 1.1em;
+    color: black;
+    padding: 5px 30px;
+    background: rgba(255,255,255,1.0);
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(255,255,255,0.8);
+}
+input[type=email]:focus {
+  outline: none;
+    
+}
+
+button:hover{
+  opacity: 1;
+ }
+
+
+.section_2 {
+    background-color: #c4c7d4;
+    margin: 0;
+}
+
+.list li{
+    list-style: none;
+    color: black;
+    font-weight: 300;
+    font-size: 30px;    
+}
+.list {
+    background-color: #dbdbe8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pin{
+    padding: 1px 30px;
+    
+}
+
+
+.section_3{
+    background-image: url('http://wallpaper-gallery.net/images/cool-video-game-wallpaper/cool-video-game-wallpaper-17.jpg');
+  background-size: cover;
+    margin-bottom: 0;
+}
+
+.btn1{
+    margin-top:  20px;
+    margin-bottom:  20px;
+       
+}
+
+.section_3 p{
+    color: white;
+}
+.section_3 h2{
+    font-size: 100px;
+    font-weight: 100;
+}
+
+.btn2{
+    padding-bottom: 20px;
+    
+}
+
+.sec_1{
+     background-image: url('https://www.hdwallpapers.in/walls/thief_game-wide.jpg');
+  background-size: cover;
+    margin-bottom: 0;
+}
+.sec_2{
+    background-image: url('http://wallpaper-gallery.net/images/free-hd-game-wallpapers/free-hd-game-wallpapers-12.jpg');
+  background-size: cover;
+    margin-bottom: 0;
+}.sec_3{
+    background-image: url('http://wallpaper-gallery.net/images/cool-video-game-wallpaper/cool-video-game-wallpaper-17.jpg');
+  background-size: cover;
+    
+    margin-bottom: 0;
+}.sec_4{
+    background-image: url('https://www.hdwallpapers.in/walls/thief_game-wide.jpg');
+  background-size: cover;
+    margin-bottom: 0;
+}
+.div_1{
+    vertical-align: middle;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.sec_5{
+    background-image: url('https://www.hdwallpapers.in/walls/thief_game-wide.jpg');
+  background-size: cover;
+    margin-bottom: 0;
+}
+
+.item_list{
+    list-style: none;
+    color: white;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.item_list li{
+    font-weight: 500;
+}

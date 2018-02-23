@@ -1,0 +1,25 @@
+<body style="text-align: center;
+  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+  font-family: 'Roboto', sans-serif;
+  color: rgb(66,69,86);
+  height: 100%;
+  background-image: url('http://i.imgur.com/BJP2Q1j.jpg');
+  background-size: cover;
+  font-weight: 100;">
+    
+<h1 style="margin: 0;
+  font-size: 70px;
+  line-height: 400px;
+  font-weight: 100;">Now you are one of our letest user</h1>
+    
+    
+    <span>
+    <% for(var i=0; i<name.length; i++) { %>
+           <li>
+          <%= name[i].email %>
+           </li>
+       <% } %>
+    </span>
+    
+    
+    </body>

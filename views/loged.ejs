@@ -1,0 +1,39 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+
+
+
+<section class="sec_1">
+    >
+    <h1>log in Success</h1>
+    <form method="post" action="/delete_page"><button class="btn1">Delete account</button></form>
+    <form method="post" action="/change_page"><button class="btn1">change password</button></form>
+</section>
+
+<section class="sec_4">
+    
+    <h2 style="font-size: 200px; color:white;font-weight: 100; padding-top: 170px;padding-bottom: 200px;">user info</h2>
+    <h2 style="font-size: 90px; color:white;font-weight: 100;">name: <%=userName%></h2>
+    <h2 style="font-size: 90px; color:white;padding-bottom: 70px;font-weight: 100;">email: <%=email%></h2>
+    
+</section>
+
+<section class="sec_5">
+    <h2 style="font-size: 90px; color:white;font-weight: 100;padding-top: 40px">games you want to remember</h2>
+    <form method="post" action="/todo">
+        <input  type="text" name="item" class="form" placeholder="Enter New Item Here">
+        <button class="btn1">insert name</button>
+    </form>
+    
+    
+    
+    
+    
+    <form method="get" action="/todo_list"><button class="btn1">show list</button></form>
+    <form method="get" action="/todo_delete"><button class="btn1">delete list</button></form>
+</section>
+
